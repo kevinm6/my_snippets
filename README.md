@@ -1,4 +1,4 @@
-# Friendly Snippets
+# My Snippets
 
 Snippets collection for a set of different programming languages.
 
@@ -88,10 +88,11 @@ let g:vsnip_filetypes.ruby = ['rails']
 With LuaSnip, see `help luasnip-loaders`
 
 ```lua
--- will exclude all javascript snippets
-require("luasnip.loaders.from_vscode").load {
-    exclude = { "javascript" },
-}
+-- Packer
+use "kevinm6/my_snippets"
+
+-- Plug
+Plug 'kevinm6/my_snippets'
 ```
 
 ## Showcase
@@ -119,6 +120,7 @@ require("luasnip.loaders.from_vscode").load {
 
 A good portion of the snippets have been forked from the following repositories:
 
+- [friendly-snippets](https://github.com/rafamadriz/friendly-snippets)
 - [vscode-standardjs-snippets](https://github.com/capaj/vscode-standardjs-snippets)
 - [python-snippets](https://github.com/cstrap/python-snippets)
 - [vs-snippets](https://github.com/kitagry/vs-snippets)
