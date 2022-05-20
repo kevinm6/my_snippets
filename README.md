@@ -1,4 +1,4 @@
-# My Snippets
+# The Snippets
 
 Snippets collection for a set of different programming languages.
 
@@ -89,10 +89,10 @@ With LuaSnip, see `help luasnip-loaders`
 
 ```lua
 -- Packer
-use "kevinm6/my_snippets"
+use "kevinm6/the_snippets"
 
 -- Plug
-Plug 'kevinm6/my_snippets'
+Plug 'kevinm6/the_snippets'
 ```
 
 ## Showcase
