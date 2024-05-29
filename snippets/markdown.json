@@ -339,7 +339,7 @@
   },
   "Separator": {
     "prefix": "sep",
-    "body": ["---$0"],
+    "body": ["---\n", "$0"],
     "descritption": "Insert Markdown separator"
   },
   "Math Block": {
