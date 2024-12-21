@@ -146,7 +146,7 @@
     "prefix": "tbl",
     "body": [
       "| ${1:Column1}  | ${2:Column2}   | ${3:Column3}   |",
-      "|-------------- | -------------- | -------------- |",
+      "|     ---       |       ---      |       ---      |",
       "| ${4:Item1}    | ${5:Item1}     | ${6:Item1}     |",
       "${0}"
     ],
@@ -156,7 +156,7 @@
     "prefix": "2x1tbl",
     "body": [
       "| ${1:Column1}  |",
-      "|-------------- |",
+      "|      ---      |",
       "| ${2:Item1}    |",
       "${0}"
     ],
@@ -166,7 +166,7 @@
     "prefix": "3x1tbl",
     "body": [
       "| ${1:Column1}  |",
-      "|-------------- |",
+      "|      ---      |",
       "| ${2:Item1}    |",
       "| ${3:Item2}    |",
       "${0}"
@@ -177,7 +177,7 @@
     "prefix": "4x1tbl",
     "body": [
       "| ${1:Column1}  |",
-      "|-------------- |",
+      "|      ---      |",
       "| ${2:Item1}    |",
       "| ${3:Item2}    |",
       "| ${4:Item3}    |",
@@ -189,7 +189,7 @@
     "prefix": "5x1tbl",
     "body": [
       "| ${1:Column1}  |",
-      "|-------------- |",
+      "|      ---      |",
       "| ${2:Item1}    |",
       "| ${3:Item2}    |",
       "| ${4:Item3}    |",
@@ -202,7 +202,7 @@
     "prefix": "2x2tbl",
     "body": [
       "| ${1:Column1}   | ${2:Column2}    |",
-      "|--------------- | --------------- |",
+      "|      ---       |       ---       |",
       "| ${3:Item1.1}   | ${4:Item2.1}   |",
       "${0}"
     ],
@@ -212,7 +212,7 @@
     "prefix": "3x2tbl",
     "body": [
       "| ${1:Column1}   | ${2:Column2}    |",
-      "|--------------- | --------------- |",
+      "|      ---       |       ---       |",
       "| ${3:Item1.1}   | ${4:Item2.1}   |",
       "| ${5:Item1.2}   | ${6:Item2.2}   |",
       "${0}"
@@ -223,7 +223,7 @@
     "prefix": "4x2tbl",
     "body": [
       "| ${1:Column1}   | ${2:Column2}    |",
-      "|--------------- | --------------- |",
+      "|      ---       |       ---       |",
       "| ${3:Item1.1}   | ${4:Item2.1}   |",
       "| ${5:Item1.2}   | ${6:Item2.2}   |",
       "| ${7:Item1.3}   | ${8:Item2.3}   |",
@@ -235,7 +235,7 @@
     "prefix": "5x2tbl",
     "body": [
       "| ${1:Column1}   | ${2:Column2}    |",
-      "|--------------- | --------------- |",
+      "|      ---       |       ---       |",
       "| ${3:Item1.1}   | ${4:Item2.1}   |",
       "| ${4:Item1.2}   | ${5:Item2.2}   |",
       "| ${6:Item1.3}   | ${7:Item2.3}   |",
@@ -247,9 +247,9 @@
   "Insert 2x3 table": {
     "prefix": "2x3tbl",
     "body": [
-      "| ${1:Column1}    | ${2:Column2}    | ${3:Column3}    |",
-      "|---------------- | --------------- | --------------- |",
-      "| ${4:Item1.1}    | ${5:Item2.1}    | ${6:Item3.1}    |",
+      "| ${1:Column1} | ${1:Column2} | ${3:Column3} |",
+      "|      ---     |      ---     |      ---     |",
+      "| ${4:Item1.1} | ${5:Item2.1} | ${6:Item3.1} |",
       "${0}"
     ],
     "description": "Insert table with 2 rows and 3 columns. First row is heading."
@@ -257,10 +257,10 @@
   "Insert 3x3 table": {
     "prefix": "3x3tbl",
     "body": [
-      "| ${1:Column1}    | ${2:Column2}    | ${3:Column3}    |",
-      "|---------------- | --------------- | --------------- |",
-      "| ${4:Item1.1}    | ${5:Item2.1}    | ${6:Item3.1}    |",
-      "| ${7:Item1.2}    | ${8:Item2.2}    | ${9:Item3.2}    |",
+      "| ${1:Column1} | ${2:Column2} | ${3:Column3} |",
+      "|     ---      |     ---      |     ---      |",
+      "| ${4:Item1.1} | ${5:Item2.1} | ${6:Item3.1} |",
+      "| ${7:Item1.2} | ${8:Item2.2} | ${9:Item3.2} |",
       "${0}"
     ],
     "description": "Insert table with 3 rows and 3 columns. First row is heading."
@@ -268,11 +268,11 @@
   "Insert 4x3 table": {
     "prefix": "4x3tbl",
     "body": [
-      "| ${1:Column1}    | ${2:Column2}    | ${3:Column3}    |",
-      "|---------------- | --------------- | --------------- |",
-      "| ${4:Item1.1}    | ${5:Item2.1}    | ${6:Item3.1}    |",
-      "| ${7:Item1.2}    | ${8:Item2.2}    | ${9:Item3.2}    |",
-      "| ${10:Item1.3}   | ${11:Item2.3}   | ${12:Item3.3}   |",
+      "| ${1:Column1}  | ${2:Column2}  | ${3:Column3}  |",
+      "|      ---      |       ---     |      ---      |",
+      "| ${4:Item1.1}  | ${5:Item2.1}  | ${6:Item3.1}  |",
+      "| ${7:Item1.2}  | ${8:Item2.2}  | ${9:Item3.2}  |",
+      "| ${10:Item1.3} | ${11:Item2.3} | ${12:Item3.3} |",
       "${0}"
     ],
     "description": "Insert table with 4 rows and 3 columns. First row is heading."
@@ -280,12 +280,12 @@
   "Insert 5x3 table": {
     "prefix": "5x3tbl",
     "body": [
-      "| ${1:Column1}    | ${2:Column2}    | ${3:Column3}    |",
-      "|---------------- | --------------- | --------------- |",
-      "| ${4:Item1.1}    | ${5:Item2.1}    | ${6:Item3.1}    |",
-      "| ${7:Item1.2}    | ${8:Item2.2}    | ${9:Item3.2}    |",
-      "| ${10:Item1.3}   | ${11:Item2.3}   | ${12:Item3.3}   |",
-      "| ${13:Item1.4}   | ${14:Item2.4}   | ${15:Item3.4}   |",
+      "| ${1:Column1}  | ${2:Column2}  | ${3:Column3}  |",
+      "|      ---      |      ---      |      ---      |",
+      "| ${4:Item1.1}  | ${5:Item2.1}  | ${6:Item3.1}  |",
+      "| ${7:Item1.2}  | ${8:Item2.2}  | ${9:Item3.2}  |",
+      "| ${10:Item1.3} | ${11:Item2.3} | ${12:Item3.3} |",
+      "| ${13:Item1.4} | ${14:Item2.4} | ${15:Item3.4} |",
       "${0}"
     ],
     "description": "Insert table with 5 rows and 3 columns. First row is heading."
@@ -301,10 +301,8 @@
       "---",
       "File          : ${TM_FILENAME}",
       "Author        : Kevin",
-      "Date          : ${CURRENT_DATE}/${CURRENT_MONTH}/${CURRENT_YEAR}, ${CURRENT_HOUR}:${CURRENT_MINUTE}",
-      "output        :",
-      "\tpdf_document: default",
-      "\thtml_notebook: default",
+      "Date Created  : ${CURRENT_DATE}/${CURRENT_MONTH}/${CURRENT_YEAR}, ${CURRENT_HOUR}:${CURRENT_MINUTE}",
+      "Last Modified : ${CURRENT_DATE}/${CURRENT_MONTH}/${CURRENT_YEAR}, ${CURRENT_HOUR}:${CURRENT_MINUTE}",
       "---\n",
       "# ${1:Title}\n",
       "---\n",
@@ -313,7 +311,7 @@
     "description": "file info in yaml for md files"
   },
   "Right Arrow": {
-    "prefix": ["rarr", "->"],
+    "prefix": ["rarr"],
     "body": ["&rarr;"],
     "description": "Insert Right Arrow"
   },
@@ -356,7 +354,7 @@
     "prefix": "2x4tbl",
     "body": [
       "| ${1:Column1} | ${2:Column2} | ${3:Column3} | ${4:Column4} |",
-      "| --------------- | --------------- | --------------- | --------------- |",
+      "|     ---      |     ---      |     ---      |     ---      |",
       "| ${5:Item1.1} | ${6:Item2.1} | ${7:Item3.1} | ${8:Item4.1} |",
       "${0}"
     ],
@@ -366,7 +364,7 @@
     "prefix": "3x4tbl",
     "body": [
       "| ${1:Column1} | ${2:Column2} | ${3:Column3} | ${4:Column4} |",
-      "| --------------- | --------------- | --------------- | --------------- |",
+      "|     ---      |     ---      |     ---      |     ---      |",
       "| ${5:Item1.1} | ${6:Item2.1} | ${7:Item3.1} | ${8:Item4.1} |",
       "| ${9:Item1.2} | ${10:Item2.2} | ${11:Item3.2} | ${12:Item4.2} |",
       "${0}"
@@ -377,7 +375,7 @@
     "prefix": "4x4tbl",
     "body": [
       "| ${1:Column1} | ${2:Column2} | ${3:Column3} | ${4:Column4} |",
-      "| --------------- | --------------- | --------------- | --------------- |",
+      "|     ---      |     ---      |     ---      |     ---      |",
       "| ${5:Item1.1} | ${6:Item2.1} | ${7:Item3.1} | ${8:Item4.1} |",
       "| ${9:Item1.2} | ${10:Item2.2} | ${11:Item3.2} | ${12:Item4.2} |",
       "| ${13:Item1.3} | ${14:Item2.3} | ${15:Item3.3} | ${16:Item4.3} |",
@@ -389,7 +387,7 @@
     "prefix": "5x4tbl",
     "body": [
       "| ${1:Column1} | ${2:Column2} | ${3:Column3} | ${4:Column4} |",
-      "| --------------- | --------------- | --------------- | --------------- |",
+      "|     ----     |     ---      |     ---      |     ---      |",
       "| ${5:Item1.1} | ${6:Item2.1} | ${7:Item3.1} | ${8:Item4.1} |",
       "| ${9:Item1.2} | ${10:Item2.2} | ${11:Item3.2} | ${12:Item4.2} |",
       "| ${13:Item1.3} | ${14:Item2.3} | ${15:Item3.3} | ${16:Item4.3} |",
@@ -402,7 +400,7 @@
     "prefix": "2x5tbl",
     "body": [
       "| ${1:Column1} | ${2:Column2} | ${3:Column3} | ${4:Column4} | ${5:Column5} |",
-      "| --------------- | --------------- | --------------- | --------------- | --------------- |",
+      "|     ---      |     ---      |     ---      |     ---      |     ---      |",
       "| ${6:Item1.1} | ${7:Item2.1} | ${8:Item3.1} | ${9:Item4.1} | ${10:Item5.1} |",
       "${0}"
     ],
@@ -412,7 +410,7 @@
     "prefix": "3x5tbl",
     "body": [
       "| ${1:Column1} | ${2:Column2} | ${3:Column3} | ${4:Column4} | ${5:Column5} |",
-      "| --------------- | --------------- | --------------- | --------------- | --------------- |",
+      "|      ---     |     ---      |     ---      |     ---      |     ---      |",
       "| ${6:Item1.1} | ${7:Item2.1} | ${8:Item3.1} | ${9:Item4.1} | ${10:Item5.1} |",
       "| ${11:Item1.2} | ${12:Item2.2} | ${13:Item3.2} | ${14:Item4.2} | ${15:Item5.2} |",
       "${0}"
@@ -422,9 +420,9 @@
   "Insert 4x5 table": {
     "prefix": "4x5tbl",
     "body": [
-      "| ${1:Column1} | ${2:Column2} | ${3:Column3} | ${4:Column4} | ${5:Column5} |",
-      "| --------------- | --------------- | --------------- | --------------- | --------------- |",
-      "| ${6:Item1.1} | ${7:Item2.1} | ${8:Item3.1} | ${9:Item4.1} | ${10:Item5.1} |",
+      "| ${1:Column1}  | ${2:Column2}  | ${3:Column3}  | ${4:Column4}  | ${5:Column5}  |",
+      "|      ---      |      ---      |      ---      |      ---      |      ---      |",
+      "| ${6:Item1.1}  | ${7:Item2.1}  | ${8:Item3.1}  | ${9:Item4.1}  | ${10:Item5.1} |",
       "| ${11:Item1.2} | ${12:Item2.2} | ${13:Item3.2} | ${14:Item4.2} | ${15:Item5.2} |",
       "| ${16:Item1.3} | ${17:Item2.3} | ${18:Item3.3} | ${19:Item4.3} | ${20:Item5.3} |",
       "${0}"
@@ -435,7 +433,7 @@
     "prefix": "5x5tbl",
     "body": [
       "| ${1:Column1}    | ${2:Column2}    | ${3:Column3}    | ${4:Column4}    | ${5:Column5}    |",
-      "|---------------- | --------------- | --------------- | --------------- | --------------- |",
+      "|       ---       |      ---        |      ---        |      ---        |      ---        |",
       "| ${6:Item1.1}    | ${7:Item2.1}    | ${8:Item3.1}    | ${9:Item4.1}    | ${10:Item5.1}   |",
       "| ${11:Item1.2}   | ${12:Item2.2}   | ${13:Item3.2}   | ${14:Item4.2}   | ${15:Item5.2}   |",
       "| ${16:Item1.3}   | ${17:Item2.3}   | ${18:Item3.3}   | ${19:Item4.3}   | ${20:Item5.3}   |",
@@ -463,5 +461,9 @@
       "</details>"
     ],
     "description": "Create a details block that could collapse"
+  },
+  "Insert footnote": {
+    "prefix": "fn",
+    "body": ["[^${1:Number}]: ${2: Footnote summary}"]
   }
 }
